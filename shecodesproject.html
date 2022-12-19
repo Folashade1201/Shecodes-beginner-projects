@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body {
+        background: radial-gradient(circle at 7.5% 24%, rgb(237,161,193) 0%,rgb(250,178,172) 
+        25.5%,rgb(190,228,210)62.3%,rgb(215,248,247) 93.8%);
+        height: 600px;
+    }
+    .text {
+   display: inline-block;
+   text-align: center;
+   
+  }
+ strong {
+    font-size: 45px;
+    font-family: poppins,sans-serif;
+ }
+ 
+ h1 {
+    color: rgb(214, 214, 94);
+    margin-top: 0;
+    text-align: center;
+ }
+    
+  h2 {
+    color: blueviolet;
+    margin-top: 0;
+    text-align: center;
+  }  
+    
+    .main {
+        line-height: 1.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        margin: 5px auto;
+        padding: 20px;
+    
+    }
+
+    a {
+     text-decoration: none;
+
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .master {
+        background-color: #e7eaf6;
+        margin-top: 50px;
+        border-radius: 5px;
+        margin: 0 auto;
+        width:500px;
+        height: 40px;   
+    }
+   button {
+    background-color: #113f67;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid blue;
+    cursor: pointer;
+    padding: 20px 10px;
+    width: 100px;
+    margin: 0 auto;
+    box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
+    transition: all 200ms ease-in-out;
+    margin-top: 30px;
+   }
+
+   button:hover {
+    background-color: #e7eaf6;
+    color: black;
+   }
+   .fonts {
+    font-family: Poppins,sans-serif;
+    font-size: 45px;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+    margin-top: 10px;
+   }
+   
+   span{
+    color: yellow;
+   }
+    </style>
+</head>
+
+<body> 
+
+    <div class="text"> <p class="fonts"> Hello! I am Abeleje Folashade </p> <strong> Welcome to My Purpose Talk Show </strong>
+
+    </div>
+ 
+    <div class="parent">  
+
+ <div class="master"> 
+<h1>  MY PURPOSE TALK SHOW </h1>
+
+<h2>....running with a vision Habakkuk 2:2 </h2>
+
+<p class="main"> My Purpose Talk Show is a vision I received from God in 2018. The aim of the show is to <span>teach people how to discover God's purpose for their lives by teaching them purpose discovery and fulfillment from God's word </span>.
+
+    <br>
+    The show runs on a weekly basis whereby recorded videos are posted on my youtube channel. I usually invite guest speakers on the show to speak on various topics regarding purpose and I also have solo sessions on the show.
+      <br>
+    
+</p>
+<hr>
+<P class="secondary">
+    <a href="https://youtube.com/channel/UCoB5jD2R87X8cjPkPxUaE6Q"> Please  Subscribe to my Youtube Channel  </a>
+<br>
+<a href="https://www.facebook.com/mypurposetalk/"> Facebook page</a>
+<br>
+<a href="https:www.instagram.com/p/CLT6OWo/?igshid=YmMyTA2M2Y="> Instagram page  </a>
+<br>  </p>
+<hr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button> Learn More</button>
+
+</div>
+<div class="memory"> 
+    
+    <img width="600px" style="border-radius: 15px;"  src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/114/original/IMG_20210610_032836_970.jpg?1663059532> 
+    </div>
+</div>
+
+    <script>
+    function javascript() {
+       let knowYou= prompt('What is your name?');
+       let question = prompt('Have you heard about the show before?');
+       question = question.toLowerCase();
+       question = question.trim();
+       if (question==="yes")
+       {
+        alert("Wow! Congratulations")
+       }
+
+    else ( 
+        alert("oops!")
+    )
+    }
+    let learnMore = document.querySelector("button");
+    learnMore.addEventListener("click", javascript);
+    
+    </script>
+    
+</body>
+</html>
